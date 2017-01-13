@@ -1,0 +1,246 @@
+
+body {
+    font-size: 12px;
+    line-height: 1.666;
+    color: #666;
+}
+body{
+    background-color: rgb(240,239,245);
+}
+body, input {
+    font-family: "微软雅黑";
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, dl, dt, dd, table, th, td {
+    margin: 0;
+    padding: 0
+}
+
+table, th, td, img {
+    border: 0
+}
+
+em, i, th {
+    font-style: normal;
+    text-decoration: none
+}
+
+h1, h2, h3, h4, h5, h6, th {
+    font-size: 100%;
+    font-weight: normal
+}
+
+input, select, button, textarea, table {
+    margin: 0;
+    font-family: inherit;
+    font-size: 100%
+}
+
+input {
+    outline: none;
+}
+
+ul, ol {
+    list-style: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+th, caption {
+    text-align: left
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+.f-clear:before, .f-clear:after {
+    clear: both;
+    content: ".";
+    font-size: 0;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden
+}
+
+.header{
+    height: 45px;
+    background-color: rgb(8,148,236);
+}
+.content{
+    width: 768px;
+    margin: 0 auto;
+    background: url("../img/logo.png") no-repeat  ;
+    background-position: 65px;
+    background-size:70px 30px ;
+}
+.ipt {
+    margin-top:8px;
+    margin-left: 150px;
+    width: 335px;
+    height: 25px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.btn{
+    width: 115px;
+    height: 28px;
+    border: 1px solid rgb(231,142,13);
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: rgb(231,142,13);
+    color:#ffffff;
+}
+.spn{
+    color:#ffffff;
+    font-size: 15px;
+    margin-left: 70px;
+    font-family: '微软雅黑';
+}
+.inter_content{
+    width: 768px;
+    margin: 0 auto;
+}
+.top{
+    height: 100px;
+    background-color: #ffffff;
+}
+.top_p{
+    font-family: '微软雅黑';
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 25px;
+    font-size: 25px;
+    color: #000;
+    border-bottom: 2px solid #ccc;
+}
+.u_u{
+    width: 100%;
+}
+.ll{
+    width: 33%;
+    height: 69px;
+    float: left;
+    margin-top: 10px;
+}
+ul .ll a img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+ul li p{
+    text-align: center;
+    color: #888888;
+    margin-top: 6px;
+}
+.lunbo{
+    width: 768px;
+    height: 113px;
+    margin: 10px 0;
+    //overflow: hidden;
+}
+.lunbo .lun .bo img{
+    width: 768px;
+    height: 113px;
+}
+
+.three{
+    width: 100%;
+    height: 93px;
+    background-color: #ffffff;
+}
+.three a{
+    color: #ffffff;
+    display: inline-block;
+    width: 310px;
+    height: 45px;
+    background-color:rgb(8,148,236);
+    border-radius: 5px;
+    text-align: center;
+    line-height:45px ;
+    font-size: 16px;
+    font-family: '微软雅黑';
+    margin: 25px 30px;
+}
+.four{
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding-bottom: 10px;
+}
+.four_p{
+    font-size: 20px;
+    color: #000;
+    border-bottom: 2px solid  #cccccc;
+    font-family: '微软雅黑';
+    padding:13px 10px;
+}
+.four_spn{
+    float: right;
+    font-size: 14px;
+}
+.four_pp{
+  padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+    font-family: '微软雅黑';
+    color:#000;
+}
+.four_sp{
+    color:rgb(8,148,236);
+}
+.ff{
+    margin-top: 8px;
+
+}
+.uu{
+    float: right;
+}
+.five{
+    margin-top: 10px;
+   background-color: #ffffff;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.five .kk{
+    height: 55px;
+    //border-bottom: 1px solid #cccccc;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #333;
+    font-family: '微软雅黑';
+    line-height: 55px;
+    border-bottom: 2px solid #cccccc;
+}
+.five p span{
+    float: right;
+    font-size: 14px;
+}
+#ss{
+    padding-top: 20px;
+    width: 100%;
+}
+.ii{
+    width: 33%;
+    height: 69px;
+    float: left;
+    margin-top: 10px;
+}
+ul .ii a img{
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+ul .ii .pp{
+    text-align: center;
+    color: #888888;
+    margin-top: 6px;
+}
